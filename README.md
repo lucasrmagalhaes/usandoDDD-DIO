@@ -5,8 +5,8 @@
 <h4 align="left">Agenda</h4>
 
 <ul>
-  <li><a href="#DDD">Conceito sobre DDD</a></li>
-  <li><a href="#MDD">Criando um Modelo de Domínio (MDD)</a></li>
+  <li><a href="https://github.com/lucasrmagalhaes/usandoDDD-DIO#domain-driven-design">Conceito sobre DDD</a></li>
+  <li><a href="https://github.com/lucasrmagalhaes/usandoDDD-DIO#criando-um-modelo-de-dom%C3%ADnio-mdd">Criando um Modelo de Domínio (MDD)</a></li>
   <li>Regras para Modelagem</li>
   <li>Exemplos de Implementação</li>
   <li>Considerações Finais</li>
