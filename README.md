@@ -12,11 +12,9 @@
   <li><a href="#">Considerações Finais</a></li>
 </ul>
 
-<hr>
+<hr />
 
 <h4 align="left">Domain Driven Design</h4>
-
-<h6 align="center">Sobre</h6>
 
 <p align="left">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"É uma abordagem de design de software disciplinada que reúne um conjunto de conteitos, técnicas e princípios para construção de softwares baseados em um modelo de domínio".<br />
@@ -39,11 +37,9 @@
     <li><strong>Independência da Tecnologia:</strong> DDD não foca em tecnologia, mas sim em entender as regras de negócio e como elas devem estar refletidas no código e no modelo de domínio. Não que a tecnlogia usada não seja importante, mas essa não é uma preocupação de DDD.</li>
 </ul>
 
-<hr>
+<hr />
 
 <h4 align="left">Criando um modelo de domínio (MDD)</h4>
-
-<h6 align="center">Sobre</h6>
 
 <p align="left">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A ideia por trás de MDD é a de que o seu modelo abstrato deve ser uma representação perfeita do sue domínio. Tudo que existe no seu negócio deve aparecer no modelo. Só aparece no modelo aqui que está no negócio.<br />
@@ -68,3 +64,13 @@
 <p align="left">
   <img src="https://github.com/lucasrmagalhaes/usandoDDD-DIO/blob/main/img/Arquitetura%20Padr%C3%A3o%20do%20MDD.jpg" alt="Arquitetura Padrão do MDD">
 </p>
+
+<hr />
+
+<h4 align="left">Regras para Modelagem do Domínio</h4>
+
+<ul>
+    <li><strong>Entidades -</strong> classes de objetos que necessitam de uma identidade. Normalmente são elementos do domínio que possuem ciclo de vida dentro de nossa aplicação: um Cliente, por exemplo, se cadastra no sistema, faz compras, se torna inativo, é excluído, etc.;</li>
+    <li><strong>Objetos de Valores -</strong> objetos que só carregam valores, mas que não possuem distinçao de identidade. Bons exemplos de objetos de objetos de valores seria: strings, números ou cores. Por exemplo: se o lápis de cor da criança acabar e você der um novo lápis a ela, da mesma cor, só que de outra caixa, ela não vai se importar. Para a criança, o lápis vermelho de uma caixa é igual ao lápis vermelho de outra caixa. As instâncias de Objetos de Valores são imutáveis, isto é, uma vez criados, seus atributos internos não poderão mais ser modificados.</li>
+    <li><strong>Agregados -</strong> compostos de Entidades ou Objetos de Valores que são encapsulados numa única classe. O Agregado serve para manter a integridade do modelo. Elegemos uma classe para servir de raiz do Agregado. Quando algum cliente quiser manipular dados de uma das classes que compõem o Agregado, essa manipulação só poderá ser feita através da entidade raiz.</li>
+</ul>
