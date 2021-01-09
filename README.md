@@ -7,14 +7,12 @@
 <ul>
   <li><a href="https://github.com/lucasrmagalhaes/usandoDDD-DIO#domain-driven-design">Conceito sobre DDD</a></li>
   <li><a href="https://github.com/lucasrmagalhaes/usandoDDD-DIO#criando-um-modelo-de-dom%C3%ADnio-mdd">Criando um Modelo de Domínio (MDD)</a></li>
-  <li>Regras para Modelagem</li>
-  <li>Exemplos de Implementação</li>
-  <li>Considerações Finais</li>
+  <li><a href="#">Regras para Modelagem</a></li>
+  <li><a href="#">Exemplos de Implementação</a></li>
+  <li><a href="#">Considerações Finais</a></li>
 </ul>
 
 <hr>
-
-<section id="DDD">
 
 <h4 align="left">Domain Driven Design</h4>
 
@@ -41,11 +39,7 @@
     <li><strong>Independência da Tecnologia:</strong> DDD não foca em tecnologia, mas sim em entender as regras de negócio e como elas devem estar refletidas no código e no modelo de domínio. Não que a tecnlogia usada não seja importante, mas essa não é uma preocupação de DDD.</li>
 </ul>
 
-</section>
-
 <hr>
-
-<section id="MDD">
 
 <h4 align="left">Criando um modelo de domínio (MDD)</h4>
 
@@ -69,4 +63,8 @@
     <li>Infra-estrutura - fornece recursos técnicos que darão suporte às camadas superiores. São normalmente as partes de um sistema responsáveis por persistência de dados, conexões com banco de dados, envio de mensagens por redes, gravação e leitura de discos, etc.</li>
 </ul>
 
-</section>
+<p align="center">Arquitetura Padrão do MDD</p>
+
+<p align="left">
+  <img src="#" alt="Arquitetura Padrão do MDD">
+</p>
