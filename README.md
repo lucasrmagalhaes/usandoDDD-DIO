@@ -66,5 +66,5 @@
 <p align="center">Arquitetura Padrão do MDD</p>
 
 <p align="left">
-  <img src="#" alt="Arquitetura Padrão do MDD">
+  <img src="https://github.com/lucasrmagalhaes/usandoDDD-DIO/blob/main/img/Arquitetura%20Padr%C3%A3o%20do%20MDD.jpg" alt="Arquitetura Padrão do MDD">
 </p>
