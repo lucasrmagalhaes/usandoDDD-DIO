@@ -16,21 +16,21 @@
 
 <h4 align="left">Domain Driven Design</h4>
 
-<p align="center">Sobre</p>
+<h6 align="center">Sobre</h6>
 
 <p align="left">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"É uma abordagem de design de software disciplinada que reúne um conjunto de conteitos, técnicas e princípios para construção de softwares baseados em um modelo de domínio".<br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Domínio é todo e qualquer conhecimento utilizado em uma determinada área".
 </p>
 
-<p align="center">Um pouco de história</p>
+<h6 align="center">Um pouco de história</h6>
 
 <p align="left">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ele veio do título do livro escrito por Eric Evans, dono da DomainLanguage, uma empresa especializada em treinamento e consultoria para desenvolvimento de software.<br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O livro de Evans é um grande catálogo de Padrões, baseados em experiências do autor ao longo de mais de 20 anos desenvolvendo software utilizando técnicas de Orientação a Objetos.
 </p>
 
-<p align="center">Principais conceitos do DDD</p>
+<h6 align="center">Principais conceitos do DDD</h6>
 
 <ul>
     <li><strong>Alinhamento do código com o negócio:</strong> o contato dos desenvolvedores com os especialistas do domínio é algo essencial quando se faz DDD (o pessoal de métodos ágeis já disso faz tempo). Se faz necessário o uso de uma linguagem úbiqua (comum entre todos) para descrever o domínio e suas regras;</li>
@@ -43,14 +43,14 @@
 
 <h4 align="left">Criando um modelo de domínio (MDD)</h4>
 
-<p align="center">Sobre</p>
+<h6 align="center">Sobre</h6>
 
 <p align="left">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A ideia por trás de MDD é a de que o seu modelo abstrato deve ser uma representação perfeita do sue domínio. Tudo que existe no seu negócio deve aparecer no modelo. Só aparece no modelo aqui que está no negócio.<br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O desenho do modelo é criado em conjunto entre especialistas de negócio e domínio, analistas, arquitetos e desenvolvedores, utilizando a linguegem úbiqua para que todos tenha o mesmo entendimento do domínio.<br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O processo de maturação de um sistema desenvovlido usando MDD deve ser contínuo. O modelo servirá de guia para a criação do código e, ao mesmo tempo, o código ajuda a perfeiçoar o modelo.
 
-<p align="center">Blocos de Construção do MDD</p>
+<h6 align="center">Blocos de Construção do MDD</h6>
 
 <p align="left">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uma vez que decidimos criar um modelo usando MDD, precisamos, incialmente, isolar o modelo de domínio das demais partes que compõem o sistema. Essa separação pode ser feita utilizando-se uma arquitetura em camadas, que dividirá nossa aplicação em quatro partes:
@@ -63,7 +63,7 @@
     <li>Infra-estrutura - fornece recursos técnicos que darão suporte às camadas superiores. São normalmente as partes de um sistema responsáveis por persistência de dados, conexões com banco de dados, envio de mensagens por redes, gravação e leitura de discos, etc.</li>
 </ul>
 
-<p align="center">Arquitetura Padrão do MDD</p>
+<h6 align="center">Arquitetura Padrão do MDD</h6>
 
 <p align="left">
   <img src="https://github.com/lucasrmagalhaes/usandoDDD-DIO/blob/main/img/Arquitetura%20Padr%C3%A3o%20do%20MDD.jpg" alt="Arquitetura Padrão do MDD">
