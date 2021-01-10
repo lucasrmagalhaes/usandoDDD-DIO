@@ -9,7 +9,6 @@
   <li><a href="https://github.com/lucasrmagalhaes/usandoDDD-DIO#criando-um-modelo-de-dom%C3%ADnio-mdd">Criando um Modelo de Domínio (MDD)</a></li>
   <li><a href="https://github.com/lucasrmagalhaes/usandoDDD-DIO#regras-para-modelagem-do-dom%C3%ADnio">Regras para Modelagem</a></li>
   <li><a href="#">Exemplos de Implementação</a></li>
-  <li><a href="#">Considerações Finais</a></li>
 </ul>
 
 <hr />
@@ -77,4 +76,12 @@
     <li><strong>Serviços -</strong> classes que contém lógica de negócio, mas que não pertence a nenhuma Entidade ou Objetos de Valores. É importante ressaltar que Serviços não guardam estado, ou seja, toda chamada a um mesmo serviço, dada uma mesma pré-condição, deve retornar sempre o mesmo resultado;</li>
     <li><strong>Repositórios -</strong> classes responsáveis por administrar o ciclo de vida dos outros objetos, normalmente Entidades, Objetos de Valor e Agregados. Os repositórios são classes que centralizam operações de criação, alteração e remoção de objetos.; e</li>
     <li><strong>Módulos -</strong> abstrações que têm por objetivos agrupar classes por um determinado conceito do domínio. A maioria das linguagens de programação oferecem suporte a módulos (pacotes em Java, namespaces em .NET ou módulos em Ruby).</li>
+</ul>
+
+<hr>
+
+<h4 align="left">Exemplos de Implementação</h4>
+
+<ul>
+  <li><a href="https://github.com/alexalvess/aurora-api-project">Aurora API Project</a></li>
 </ul>
