@@ -78,10 +78,47 @@
     <li><strong>Módulos -</strong> abstrações que têm por objetivos agrupar classes por um determinado conceito do domínio. A maioria das linguagens de programação oferecem suporte a módulos (pacotes em Java, namespaces em .NET ou módulos em Ruby).</li>
 </ul>
 
-<hr>
+<hr />
 
 <h4 align="left">Exemplos de Implementação</h4>
 
 <ul>
   <li><a href="https://github.com/alexalvess/aurora-api-project">Aurora API Project</a></li>
 </ul>
+
+<hr />
+
+<details>
+  <summary><strong>Certifique seu conhecimento:</strong></summary>
+  <br />
+  <strong>É possível afirmar que o Model de um projeto é:</strong><br />
+  É a Descrição de alguns aspectos do domínio. Na prática, é a modelagem dos objetos de negócio.
+  <br /><br />
+  <strong>Dentro da metodologia do DDD, quem define os Modelos de Domínio (MDD)?</strong><br />
+  Especialistas de negócio em conjunto desenvolvedores arquitetos de software
+  <br /><br />
+  <strong>Assina-le a alternativa correta:</strong><br />
+  DDD é independente de tecnologia
+  <br /><br />
+  <strong>Assina-le a alternativa INCORRETA sobre utilizar DDD em um projeto</strong><br />
+  Cria softwares mais rapidos a prova de falhas
+  <br /><br />
+  <strong>O que significa MDD?</strong><br />
+  Modelo de Domínio
+  <br /><br />
+  <strong>O que signifca DDD?</strong><br />
+  Domain-Driven Design
+  <br /><br />
+  <strong>É um principal conceito do DDD:</strong><br />
+  Alinhamento do código com o negócio
+  <br /><br />
+  <strong>O Modelo De Domínio (MDD) é uma representação fiel de:</strong><br />
+  São representações das entidades e nomenclaturas do negócio
+  <br /><br />
+  <strong>Qual a maior vantagem de se usar DDD?</strong><br />
+  Aproximar a linguagem de negócio da linguagem técnica
+  <br /><br />
+  <strong>Quais os principais conceitos do DDD?</strong><br />
+  Alinhamento do código com o negócio , Favorecer a reutilização , Minimo de acoplamento, Independência da Tecnologia.
+</details>
+    
